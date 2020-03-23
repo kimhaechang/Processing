@@ -5,8 +5,8 @@ void setup(){
 }
 int i, dir=1, sp;
 void draw(){
-  background(0);
-  fill(0,125,255);
+  background(0,0,255);
+  fill(0,125,125);
   text("Graphics", i, 150);
   if(i>width) dir=-1;
   if(i<0) dir=1;
