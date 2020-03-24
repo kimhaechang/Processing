@@ -1,0 +1,16 @@
+```
+PFont f;
+void setup(){
+  size(800,300);
+  f=createFont("굴림",62);
+  textFont(f);
+}
+int i, sp;
+void draw(){
+  background(0,255,0);
+  fill(0,125,125);
+  text("안동대 컴공 사랑합니다.", 50, i=i+1*sp);
+  if(keyPressed) sp= key-'0'; 
+  if(i>height) i=0;
+}
+```
